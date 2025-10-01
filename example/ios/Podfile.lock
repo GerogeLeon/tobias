@@ -1,25 +1,31 @@
 PODS:
   - Flutter (1.0.0)
-  - tobias (0.0.1):
+  - integration_test (0.0.1):
     - Flutter
-    - tobias/normal (= 0.0.1)
-  - tobias/normal (0.0.1):
+  - tobias_new (0.0.1):
+    - Flutter
+    - tobias_new/normal (= 0.0.1)
+  - tobias_new/normal (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - tobias (from `.symlinks/plugins/tobias/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - tobias_new (from `.symlinks/plugins/tobias_new/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  tobias:
-    :path: ".symlinks/plugins/tobias/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  tobias_new:
+    :path: ".symlinks/plugins/tobias_new/ios"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  tobias: f9c405df3ded93ad34539200fe3e7779cfb19081
+  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  tobias_new: fbfc1232da55b03b1a4f23571d1f28b346b48d74
 
-PODFILE CHECKSUM: beab77b38961de946f08660e554f80ac174dc842
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.14.3

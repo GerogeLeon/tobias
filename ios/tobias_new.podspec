@@ -51,7 +51,7 @@ else
 end
 
 Pod::Spec.new do |s|
-  s.name             = 'tobias'
+  s.name             = 'tobias_new'
   s.version          = '0.0.1'
   s.summary          = 'A Flutter plugin For Alipay.'
   s.description      = <<-DESC

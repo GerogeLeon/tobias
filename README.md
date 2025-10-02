@@ -16,7 +16,7 @@
 
 Tobias 是一个为支付宝支付 SDK 做的 Flutter 插件，支持 iOS, Android 和 OpenHarmony
 
-## 使用的alipay sdk 版本
+## 所使用的alipay sdk 版本
 
 android alipaysdk version: 15.8.35
 ios alipaysdk version: 15.8.35
@@ -27,6 +27,9 @@ alipay SDK 付款存在以下两种模式，商家测试人员需要关注这两
 ○ 若用户未安装支付宝客户端，则在本 SDK 内部进行 H5 支付。
 
 ## iOS上插件正常工作前提 （我踩的坑，我不是ios开发者）
+
+非前提：Universal Link不是必须，仅用URL Scheme也能支付
+
 
 ===AppDelegate.swift
 在业务项目的 ios/Runner/AppDelegate.swift 中的application方法中必须有调父类

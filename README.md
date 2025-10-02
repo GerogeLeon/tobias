@@ -14,6 +14,12 @@
 
 ![QQGroup](https://gitee.com/OpenFlutter/resoures-repository/raw/master/common/flutter.png)
 
+## 使用的alipay sdk 版本
+
+android alipaysdk version: 15.8.35
+ios alipaysdk version: 15.8.35
+https://opendocs.alipay.com/open/54/104509
+
 ## What's Tobias
 
 Tobias is a  flutter plugin for AliPaySDK, works on iOS, Android and OpenHarmony

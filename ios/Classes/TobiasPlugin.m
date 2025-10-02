@@ -88,7 +88,7 @@ __weak TobiasPlugin* __tobiasPlugin;
     NSLog(@"[Tobias] handleOpenURL called with URL: %@", url);
     NSLog(@"[Tobias] URL host: %@", url.host);
 
-    if ([url.host isEqualToString:@"safepay"] || [url.host isEqualToString:@"platformapi"]) {
+    if ([url.host isEqualToString:@"safepay"]) {
         NSLog(@"[Tobias] Handling Alipay URL");
 
         __weak TobiasPlugin* __self = self;

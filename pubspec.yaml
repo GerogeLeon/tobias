@@ -1,7 +1,7 @@
 name: tobias_new
 description: A Flutter plugin for allowing users to authenticate or pay with native Android/iOS/OpenHarmony AliPay SDKs.
 version: 5.2.4
-homepage: https://github.com/OpenFlutter/tobias
+homepage: https://github.com/GerogeLeon/tobias
 
 environment:
   sdk: '>=2.12.0 <4.0.0'
